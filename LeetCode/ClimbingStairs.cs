@@ -23,7 +23,7 @@ namespace ProblemSolvingJourney.LeetCode.DynamicProgramming
             return memo[n];
         }
 		
-		 public int ClimbStairsTabulization(int n)
+	public int ClimbStairsTabulization(int n)
         {
             if (n == 0 || n == 1)
                 return 1;
